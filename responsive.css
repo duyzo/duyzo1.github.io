@@ -1,0 +1,88 @@
+@media (max-width: 740px) {
+#title {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+#title > li {
+display: block;
+}
+#title > li:first-child {
+    display: inline-block;
+}
+#title a {
+    width: 100%;
+}
+#header {
+    overflow: hidden;
+}
+#search_ic {
+    display: none;
+}
+#menu {
+    float: right;
+    color: white;
+    padding: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+}
+.down a {
+    padding: 8px 16px;
+    display: inline-block;
+}
+#content #member {
+    flex-wrap: wrap;
+}
+#content .member_img {
+    flex: 100%;
+    display: block;
+}
+
+#content .member_img img {
+    width: 60% 
+}
+
+.box_place {
+    flex-wrap: wrap;
+    width: 100%;
+}
+.box_place .place {
+flex: 100%;
+float: left;
+margin-left: 0;
+margin-right: 0;
+}
+
+.box_contact {
+flex-wrap: wrap;
+}
+.contact_left {
+flex: 100%;
+margin-left: 10px;
+}
+.contact_right {
+flex: 100%;
+width: 100%;
+display: block;
+}
+.contact_right input {
+display:inline-block ;
+width: 100%;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+.contact_right .contact_top {
+ width: 100%;
+ float: left;
+ margin-left: 0;
+}
+.send {
+position: relative;
+
+}
+
+
+
+}
